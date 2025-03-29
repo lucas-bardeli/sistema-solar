@@ -32,11 +32,14 @@ body {
 .terra, 
 .lua, 
 .mercurio,
-.marte {
+.venus,
+.marte,
+.jupiter,
+.saturno {
     position: absolute;
     border-style: solid;
     border-color: white transparent transparent transparent;
-    border-width: 0.1em 0.1em 0 0;
+    border-width: 0.1em 0.1em 0.1em 0;
     border-radius: 50%;
 }
 
@@ -55,11 +58,11 @@ body {
 }
 
 .lua {
-    top: 0;
-    right: 0;
-    width: 8em;
-    height: 8em;
-    animation: orbita 2.7s linear infinite;
+    top: 1.5em;
+    right: 1.3em;
+    width: 6em;
+    height: 6em;
+    animation: orbita 3s linear infinite;
 }
 
 .mercurio {
@@ -70,12 +73,48 @@ body {
     animation: orbita 8.8s linear infinite;
 }
 
+.venus {
+    top: 40em;
+    left: 40em;
+    width: 20em;
+    height: 20em;
+    animation: orbita 22.5s linear infinite;
+}
+
 .marte {
-    top: 27.5em;
-    left: 27.5em;
-    width: 45em;
-    height: 45em;
+    top: 30em;
+    left: 30em;
+    width: 40em;
+    height: 40em;
     animation: orbita 68.7s linear infinite;
+}
+
+.jupiter {
+    top: 25em;
+    left: 25em;
+    width: 50em;
+    height: 50em;
+    animation: orbita 80s linear infinite;
+}
+
+.saturno {
+    top: 20em;
+    left: 20em;
+    width: 60em;
+    height: 60em;
+    animation: orbita 100s linear infinite;
+}
+
+.aneis {
+    position: absolute;
+    border-style: solid;
+    border-color: white;
+    border-width: 0.1em;
+    border-radius: 50%;
+    top: 5em;
+    right: 5em;
+    width: 7em;
+    height: 7em;
 }
 
 /* Circunferência dos planetas */
@@ -83,22 +122,25 @@ body {
 .terra::before,
 .lua::before,
 .mercurio::before,
-.marte::before {
+.venus::before,
+.marte::before,
+.jupiter::before,
+.saturno::before {
     content: '';
     position: absolute;
     border-radius: 50%;
 }
 
 .terra::before {
-    top: 2.8em;
-    right: 2.8em;
+    top: 2.85em;
+    right: 2.85em;
     width: 3em;
     height: 3em;
     background-color: aqua;
 }
 
 .lua::before {
-    top: 0.8em;
+    top: 0.2em;
     right: 0.2em;
     width: 1.2em;
     height: 1.2em;
@@ -106,17 +148,41 @@ body {
 }
 
 .mercurio::before {
-    top: 1.35em;
-    right: 1.35em;
-    width: 1.6em;
-    height: 1.6em;
+    top: 1.4em;
+    right: 1.4em;
+    width: 1.5em;
+    height: 1.5em;
     background-color: #6699CC;
 }
 
+.venus::before {
+    top: 1.7em;
+    right: 1.7em;
+    width: 2.5em;
+    height: 2.5em;
+    background-color: #ff9a8b;
+}
+
 .marte::before {
-    top: 5.6em;
-    right: 5.6em;
+    top: 4.85em;
+    right: 4.85em;
     width: 2em;
     height: 2em;
     background-color: red;
+}
+
+.jupiter::before {
+    top: 4.7em;
+    right: 4.7em;
+    width: 5em;
+    height: 5em;
+    background-color: #D2B48C;
+}
+
+.saturno::before {
+    top: 6.3em;
+    right: 6.3em;
+    width: 4.5em;
+    height: 4.5em;
+    background-color: #FDFD96;
 }

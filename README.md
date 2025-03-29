@@ -1,5 +1,5 @@
 
-Para ver a mágica acontecer ✨ clone o repositório, ou baixe os arquivos: 
+Para ver a mágica acontecer ✨ baixe os arquivos, ou clone o repositório: 
 
 ```bash
   git clone https://github.com/lucas-bardeli/sistema-solar.git
