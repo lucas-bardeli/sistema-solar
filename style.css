@@ -9,7 +9,7 @@ body {
     overflow: hidden; /* não cria barras de rolagem */
 }
 
-.container {
+.via-lactea {
     font-size: 10px;
     width: 100em;
     height: 100em;
@@ -29,13 +29,7 @@ body {
 
 /* Órbitas dos planetas */
 
-.terra, 
-.lua, 
-.mercurio,
-.venus,
-.marte,
-.jupiter,
-.saturno {
+.astro {
     position: absolute;
     border-style: solid;
     border-color: white transparent transparent transparent;
@@ -117,15 +111,33 @@ body {
     height: 7em;
 }
 
+.urano {
+    top: 15em;
+    left: 15em;
+    width: 70em;
+    height: 70em;
+    animation: orbita 120s linear infinite;
+}
+
+.netuno {
+    top: 10em;
+    left: 10em;
+    width: 80em;
+    height: 80em;
+    animation: orbita 140s linear infinite;
+}
+
+.plutao {
+    top: 5em;
+    left: 5em;
+    width: 90em;
+    height: 90em;
+    animation: orbita 160s linear infinite;
+}
+
 /* Circunferência dos planetas */
 
-.terra::before,
-.lua::before,
-.mercurio::before,
-.venus::before,
-.marte::before,
-.jupiter::before,
-.saturno::before {
+.astro::before {
     content: '';
     position: absolute;
     border-radius: 50%;
@@ -136,7 +148,7 @@ body {
     right: 2.85em;
     width: 3em;
     height: 3em;
-    background-color: aqua;
+    background-color: blue;
 }
 
 .lua::before {
@@ -152,7 +164,7 @@ body {
     right: 1.4em;
     width: 1.5em;
     height: 1.5em;
-    background-color: #6699CC;
+    background-color: gray;
 }
 
 .venus::before {
@@ -185,4 +197,28 @@ body {
     width: 4.5em;
     height: 4.5em;
     background-color: #FDFD96;
+}
+
+.urano::before {
+    top: 8.2em;
+    right: 8.2em;
+    width: 4em;
+    height: 4em;
+    background-color: #30d5c8;
+}
+
+.netuno::before {
+    top: 9.85em;
+    right: 9.85em;
+    width: 3.5em;
+    height: 3.5em;
+    background-color: #4169E1;
+}
+
+.plutao::before {
+    top: 12.65em;
+    right: 12.65em;
+    width: 1em;
+    height: 1em;
+    background-color: orange;
 }
