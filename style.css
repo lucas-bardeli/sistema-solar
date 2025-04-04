@@ -4,12 +4,12 @@ body {
     height: 100vh; /* 100% da altura da janela do navegador */
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: center; 
     background-color: black;
     overflow: hidden; /* não cria barras de rolagem */
 }
 
-.via-lactea {
+.sistema-solar {
     font-size: 10px;
     width: 100em;
     height: 100em;
