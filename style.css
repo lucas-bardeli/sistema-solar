@@ -5,6 +5,9 @@ body {
     display: flex;
     align-items: center;
     justify-content: center; 
+    background-image: url('estrelas.jpg');
+    background-size: cover;
+    background-position: center;
     background-color: black;
     overflow: hidden; /* não cria barras de rolagem */
 }
@@ -22,7 +25,7 @@ body {
     left: 45em;
     width: 10em;
     height: 10em;
-    background-color: yellow;
+    background: linear-gradient(yellow, gold);
     border-radius: 50%;
     box-shadow: 0 0 3em white;
 }
@@ -148,7 +151,7 @@ body {
     right: 2.85em;
     width: 3em;
     height: 3em;
-    background-color: blue;
+    background: linear-gradient(blue, aqua);
 }
 
 .lua::before {
@@ -156,7 +159,7 @@ body {
     right: 0.2em;
     width: 1.2em;
     height: 1.2em;
-    background-color: silver;
+    background: linear-gradient(silver, darkgray);
 }
 
 .mercurio::before {
@@ -164,7 +167,7 @@ body {
     right: 1.4em;
     width: 1.5em;
     height: 1.5em;
-    background-color: gray;
+    background: linear-gradient(gray, slategray);
 }
 
 .venus::before {
@@ -172,7 +175,7 @@ body {
     right: 1.7em;
     width: 2.5em;
     height: 2.5em;
-    background-color: #ff9a8b;
+    background: linear-gradient(tomato, hotpink);
 }
 
 .marte::before {
@@ -180,7 +183,7 @@ body {
     right: 4.85em;
     width: 2em;
     height: 2em;
-    background-color: red;
+    background: linear-gradient(red, brown);
 }
 
 .jupiter::before {
@@ -188,7 +191,7 @@ body {
     right: 4.7em;
     width: 5em;
     height: 5em;
-    background-color: #D2B48C;
+    background: linear-gradient(#D2B48C, chocolate);
 }
 
 .saturno::before {
@@ -196,7 +199,7 @@ body {
     right: 6.3em;
     width: 4.5em;
     height: 4.5em;
-    background-color: #FDFD96;
+    background: linear-gradient(#FDFD96, salmon);
 }
 
 .urano::before {
@@ -204,7 +207,7 @@ body {
     right: 8.2em;
     width: 4em;
     height: 4em;
-    background-color: #30d5c8;
+    background: linear-gradient(cyan, skyblue);
 }
 
 .netuno::before {
@@ -212,7 +215,7 @@ body {
     right: 9.85em;
     width: 3.5em;
     height: 3.5em;
-    background-color: #4169E1;
+    background: linear-gradient(#4169E1, indigo);
 }
 
 .plutao::before {
@@ -220,5 +223,5 @@ body {
     right: 12.65em;
     width: 1em;
     height: 1em;
-    background-color: orange;
+    background: linear-gradient(orange, orangered);
 }

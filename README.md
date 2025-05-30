@@ -1,14 +1,14 @@
 
-Para ver a mágica acontecer ✨ baixe os arquivos, ou clone o repositório: 
+## 🪐 Sistema Solar
 
-```bash
-  git clone https://github.com/lucas-bardeli/sistema-solar.git
+Um mini Sistema Solar feito em HTML e CSS.
+
+🔗 Você pode visualizar o projeto através do seguinte link:
+```
+https://lucas-bardeli.github.io/aulas-devweb1/
 ```
 
-Depois abra o aquivo **index.html** !
-
-Link de referência:
-
-```bash
-  https://youtu.be/gkCpcgdwYtA?si=lBkXLaldlvha8ttC
+🔗 Link de referência:
+```
+https://youtu.be/gkCpcgdwYtA?si=lBkXLaldlvha8ttC
 ```
